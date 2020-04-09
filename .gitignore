@@ -2,3 +2,5 @@
 out
 .idea
 distributed_systems.iml
+
+process_thread/chat_room/node_modules
