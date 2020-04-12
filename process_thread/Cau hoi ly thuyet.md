@@ -34,23 +34,11 @@
 
 - Đối với máy chủ đơn luồng:
 
-- Thời gian xử lý một yêu cầu trung bình là: 
-  $$
-  15 * 2/3 + 75 * 1/3 = 40(ms)
-  $$
+- Thời gian xử lý một yêu cầu trung bình là: 15 * 2/3 + 75 * 1/3 = 40(ms)
 
-- Số request được xử lý trong một giây:
+- Số request được xử lý trong một giây: 1000 / 40 = 25 (request/s)
 
-  
-  $$
-  1000 / 40 = 25 (request/s)
-  $$
-
-- Đối với máy chủ đa luồng, số request được xử lý trong một giây:
-  $$
-  1000 / 15= 67 (request/s)
-  $$
-
+- Đối với máy chủ đa luồng, số request được xử lý trong một giây: 1000 / 15= 67 (request/s)
 
 
 ## Câu 5
